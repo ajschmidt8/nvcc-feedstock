@@ -11,13 +11,13 @@ channel_targets:
 cuda_compiler:
 - nvcc
 cuda_compiler_version:
-- '11.2'
+- '11.4'
 cxx_compiler:
 - gxx
 cxx_compiler_version:
 - '7'
 docker_image:
-- gpuci/linux-anvil-aarch64-cuda:11.2
+- gpuci/linux-anvil-aarch64-cuda:11.4
 target_platform:
 - linux-aarch64
 zip_keys:

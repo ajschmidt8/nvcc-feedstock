@@ -23,6 +23,7 @@ cat >~/.condarc <<CONDARC
 
 conda-build:
  root-dir: ${FEEDSTOCK_ROOT}/build_artifacts
+ssl_verify: false
 
 CONDARC
 BUILD_CMD=build
